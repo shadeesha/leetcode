@@ -5,30 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e0999f-9e42-4c41-9f57-576a3fc09421" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/demo/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/demo/LongestIncreasingSubSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/demo/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/demo/StringManupulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/demo/diff.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/leetcode/demo/MergeStringAlternative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/patterns/PrefixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/patterns/SlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/patterns/TwoPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/algorithms/patterns/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ttSZaSlxGeT7KUy34GufOK6VLN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,12 +41,19 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GCD.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.PowerUsingRecursion.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.SlidingWindow.executor": "Run",
+    "Application.SumOfNumbers.executor": "Run",
+    "Application.TwoPoints.executor": "Run",
     "Application.Unnamed.executor": "Run",
+    "Application.patterns.executor": "Run",
     "Maven.leetcodeapplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "sumOfNumbers",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shade/Desktop/Courses/leetcode/leetcode"
   }
@@ -56,13 +63,65 @@
       <recent name="C:\Users\shade\Desktop\Courses\leetcode\leetcode" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.algorithms.QuickSort" />
+  <component name="RunManager" selected="Application.SlidingWindow">
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.algorithms.recursion.GCD" />
       <module name="footballSession" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.algorithms.*" />
+          <option name="PATTERN" value="src.algorithms.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.algorithms.recursion.PowerUsingRecursion" />
+      <module name="footballSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.algorithms.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrefixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.algorithms.patterns.PrefixSum" />
+      <module name="footballSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.algorithms.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.algorithms.patterns.SlidingWindow" />
+      <module name="footballSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.algorithms.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.algorithms.patterns.TwoPoints" />
+      <module name="footballSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.algorithms.patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,7 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.SlidingWindow" />
+        <item itemvalue="Application.TwoPoints" />
+        <item itemvalue="Application.PrefixSum" />
+        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.PowerUsingRecursion" />
       </list>
     </recent_temporary>
   </component>
